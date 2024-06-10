@@ -1,0 +1,104 @@
+nav {
+    background-color: #13322B;
+    height: 105px;
+    line-height: 105px;
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000;
+}
+
+.nav-wrapper {
+    padding: 0 20px;
+}
+
+.brand-logo {
+    height: 90px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    /* Ajusta según sea necesario */
+}
+.brand-logo:hover {
+    background-color: rgba(30, 71, 62, 0.5); 
+}
+
+.brand-logo img {
+    height: 80px;
+    /* Ajusta el tamaño del logo según sea necesario */
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: -50px;
+    /* Espacio entre el logo y el texto */
+}
+
+ul.right {
+    margin-top: 20px;
+    /* Ajusta según sea necesario */
+}
+
+ul.right li {
+    display: inline-block;
+    margin-left: 20px;
+    /* Espacio entre los elementos del menú */
+}
+
+ul.right li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    /* Transición suave para el color del texto */
+}
+
+ul.right li a:hover {
+    color: #D4C19C;
+    background-color: transparent;
+    font-size: 19px;
+    transition: 400ms;
+}
+
+.dropdown-content li>a,
+.dropdown-content li>span {
+color: #ffa400;
+font-family: 'Raleway-Medium', sans-serif;
+}
+.dropdown-content li>span,
+.dropdown-content.idioma-nav li>a,
+.dropdown-content li>span {
+color: #13322B;
+font-size: 14px;
+}
+.dropdown-content.idioma-nav {
+top: 80px !important;
+}
+.dropdown-content li:hover,
+.dropdown-content li.active {
+background-color: #13322B;
+color: #D4C19C;
+}
+.dropdown-content li:hover a,
+.dropdown-content li.active a {
+color: #D4C19C!important;
+}
+.dropdown-content {
+width: 140px !important;
+right: 0px;
+top: 0px;
+height: auto;
+}
+.dropdown-content .bold {
+font-family: 'Raleway-Bold', sans-serif;
+margin-right: 20px;
+width: 30px;
+text-align: right;
+display: inline-block;
+color: #ffa400;
+}
+.select-dropdown li.disabled,
+.select-dropdown li.disabled>span,
+.select-dropdown li.optgroup {
+background: #13322B;
+color: #D4C19C;
+}
